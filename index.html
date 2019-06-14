@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Function Visualization Project</title>
+</head>
+<body onLoad="Init()">
+    <header>
+        <h1>Function Visualization Project</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <label for="inputField">F(x) = </label>
+            <input type="text" id="inputField">
+            <button onclick="Calc()">Plot</button>
+            <button onclick="Init()">Reset</button>
+        </div>
+        <canvas id="mainCanvas" height="600" width="600">Your browser doesn't support canvases!</canvas>
+    </main>
+    <footer>
+        <p>by xxx</p>
+    </footer>
+</body>
+</html>
